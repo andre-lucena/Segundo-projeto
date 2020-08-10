@@ -1,0 +1,41 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family= Titillium + Web & display = swap');
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../fonts/bubblegum-sans-regular.otf");
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /*TIPO DE LETRA */
+    background-color: #dddddd;
+    color: rgb(0, 0, 0, 1);
+}
+
+div#interface {
+    width: 940px;
+    background-color: #ffffff;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 0px rgb(0, 0, 0, 5);
+    padding: 15px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+a {
+    color: #606060;
+    text-decoration: none;
+}
+
+a:houver {
+    text-decoration: underline;
+}
+
+header#cabecalho img#icone {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url("../imagens/glass-logo-peq") no-repeat 0px 80px;
+}

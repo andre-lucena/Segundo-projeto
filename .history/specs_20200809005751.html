@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tudo sobre o Google glass</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/specs.css">
+</head>
+<script lang="javasript" src="javascript/funcoes.js"></script>
+
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <hgroup>
+                <h1>Google glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+            </hgroup>
+            <img src="imagens/especificacoes.png" alt="Especificações" id="icone">
+            <img src="imagens/glass-logo-peq.jpg" alt="Glass" align="left" />
+
+            <nav id="menu">
+                <ul>
+                    <li onmouseover="mudaFoto('imagens/home.png')" onmouseout="mudaFoto('imagens/especificacoes.png')"><a href="home.html"> Home</a></li>
+                    <li onmouseover="mudaFoto('imagens/especificacoes.png')" onmouseout="mudaFoto('imagens/especificacoes.png')"><a href="specs.html"> Especificações</a></li>
+                    <li onmouseover="mudaFoto('imagens/fotos.png')" onmouseout="mudaFoto('imagens/especificacoes.png')"><a href="fotos.html"> Fotos</a></li>
+                    <li onmouseover="mudaFoto('imagens/multimidia.png')" onmouseout="mudaFoto('imagens/especificacoes.png')"><a href="Multimidia.html"> Multimídia</a></li>
+                    <li onmouseover="mudaFoto('imagens/contato.png')" onmouseout="mudaFoto('imagens/especificacoes.png')"> <a href="Fale-conosco.html"> Fale conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="corpo-full">
+            <!-- SECTION DEFINE UMA SEÇÃO DA PAGINA-->
+            <article id="noticia-principal">
+                <!--ARTICLE SEMPRE VAI LEVAR O QUE SE QUER DESTACAR NO SITE-->
+                <header id="cabecalho-artigo">
+                    <hgroup>
+                        <!--HGROUP SERVE PARA AGRUPAR TITULOS E SUBTITULOS-->
+                        <h3>Glass > Especificações</h3>
+                        <!--H3 É O TERCEIRO NA HIERARQUIA DOS TITULOS-->
+                        <h1>Rsio-X no Google GLass</h1>
+                        <!--H1 É O PRIMEIRO NA HIERARQUIA DOS TITULOS-->
+                        <h2>por André Lucena</h2>
+                        <!--H3 É O SEGUNDO NA HIERARQUIA DOS TITULOS-->
+                        <h3 class="direita"> Atualizado em 07/Agosto/2020</h3>
+                    </hgroup>
+                </header>
+
+                <p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
+                <section id="conteudo">
+                    <img src="imagens/glass-esquema-marcado.jpg" alt="Descrição do Google glass" usemap="#meumapa">
+                    <map name="meumapa"> <!--MAP É UMA AREA CLICAVEL DE UMA IMAGEM-->
+                                <area shape="rect" coords="179,202,260,270" href="google-glass.html#tela" target="janela" /><!--AREA DEFINE UMA IMAGEM CLICAVEL, OU UMA PARTE DA IMAGEM-->
+                                <area shape="circle" coords="147,232,12" href="google-glass.html#camera" target="janela"/>
+                                <area shape="circle" coords="66,41,12 " href="google-glass.html#gadgets" target="janela"/>
+                                <area shape="poly" coords="28,143,83,216,84,249,27,169" href="google-glass.html#sensores" target="janela"/>
+                            </map>
+                    <iframe scrolling="no" id="frame-spec" src="google-glass.html" name="janela" frameborder="0"></iframe>
+                    <!--iframe é usado para incorporar outro documento html dentro e outro documento html-->
+                </section>
+            </article>
+        </section>
+        <footer id="rodape">
+            <!--define o rodapé-->
+            <p>Copyright 2020 - by André Lucena<br/>
+                <a href="https://www.facebook.com/andre.lucena.37" target="_blaks">Facebook</a> | Twitter</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>

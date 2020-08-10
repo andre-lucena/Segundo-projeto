@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<DOCTYPE html>
+    <html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tudo sobre o Google glass</title>
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="stylesheet" href="css/media.css">
+    </head>
+    <script lang="javasript" src="javascript/funcoes.js"></script>
+
+    <body>
+        <div id="interface">
+            <header id="cabecalho">
+                <hgroup>
+                    <h1>Google glass</h1>
+                    <h2>A revolução do Google está chegando</h2>
+                </hgroup>
+                <img src="./imagens/multimidia.png" alt="Multimidia" id="icone">
+                <img src="imagens/glass-logo-peq.jpg" alt="Glass" align="left" />
+
+                <nav id="menu">
+                    <ul>
+                        <li onmouseover="mudaFoto('imagens/home.png')" onmouseout="mudaFoto('imagens/multimidia.png')"><a href="home.html"> Home</a></li>
+                        <li onmouseover="mudaFoto('imagens/especificacoes.png')" onmouseout="mudaFoto('imagens/multimidia.png')"><a href="specs.html"> Especificações</a></li>
+                        <li onmouseover="mudaFoto('imagens/fotos.png')" onmouseout="mudaFoto('imagens/multimidia.png')"><a href="fotos.html"> Fotos</a></li>
+                        <li onmouseover="mudaFoto('imagens/multimidia.png')" onmouseout="mudaFoto('imagens/multimidia.png')"><a href="Multimidia.html"> Multimídia</a></li>
+                        <li onmouseover="mudaFoto('imagens/contato.png')" onmouseout="mudaFoto('imagens/multimidia.png')"> <a href="Fale-conosco.html"> Fale conosco</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section id="corpo-full">
+                <article id="noticia-principal">
+                    <header id="cabecalho-artigo">
+                        <hgroup>
+                            <h3>Glass > Multímidia</h3>
+                            <h1>Sons e Videos</h1>
+                            <h2>por André Lucena</h2>
+                            <h3 class="direita">Atualizado em 07/Agosto/2020</h3>
+                        </hgroup>
+                    </header>
+
+
+                    <div id="tv-radio">
+                        <audio id="musica" controls="controls">
+                            <source src="media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg"/>
+                        </audio>
+                        <video id="filme" controls="controls" poster="imagens/video-mini03.jpg" />
+                        <source src="media/getting-started.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                </article>
+            </section>
+            <footer id="rodape">
+                <p>Copyright 2020 - by André Lucena <br/>
+                    <a href="https://www.facebook.com/andre.lucena.37" target="_blanks">Facebook</a> | Twitter</p>
+            </footer>
+        </div>
+    </body>
+
+    </html>
